@@ -48,14 +48,12 @@ body {
   color: var(--hover-color);
 }
 
-.nav-list :hover {
-  color: var(--hover-color);
-}
-
+.nav-list :hover,
 .nav-list :focus {
   color: var(--hover-color);
   background-color: var(--background-color);
 }
+
 
 .contact {
   font-weight: 500;
@@ -65,14 +63,13 @@ body {
   list-style-type: none;
 }
 
-.contact-list :hover {
-  color: var(--hover-color);
+.contact-list :hover,
+.contact-list :focus {
+    color: var(--hover-color);
+    background-color: var(--background-color);
 }
 
-.contact-list :focus {
-  color: var(--hover-color);
-  background-color: var(--background-color);
-}
+
 
 .email {
   text-decoration: none;
@@ -110,8 +107,8 @@ body {
   border: none;
 }
 
-.btn:hover,
-:focus {
+.btn :hover,
+.btn :focus {
   background-color: #188ce8;
 }
 
@@ -232,10 +229,7 @@ body {
   text-decoration: none;
 }
 
-.address-contacts:hover {
-  color: var(--hover-color);
-}
-
+.address-contacts:hover,
 .address-contacts:focus {
   color: var(--hover-color);
   background-color: var(--footer-background);
@@ -258,10 +252,8 @@ body {
 }
 
 .filters-btn:hover,
-:focus {
+.filters-btn:focus {
   background: #188ce8;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--background-color);
 }
