@@ -20,9 +20,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.web {
   color: var(--hover-color);
 }
 
@@ -47,13 +44,17 @@ body {
   color: var(--primary-text-color);
 }
 
-.nav-list .nav-link.current {
+.nav-link.current {
   color: var(--hover-color);
 }
 
-.nav-list :hover,
-:focus {
+.nav-list :hover {
   color: var(--hover-color);
+}
+
+.nav-list :focus {
+  color: var(--hover-color);
+  background-color: var(--background-color);
 }
 
 .contact {
@@ -64,9 +65,13 @@ body {
   list-style-type: none;
 }
 
-.contact-list :hover,
-:focus {
+.contact-list :hover {
   color: var(--hover-color);
+}
+
+.contact-list :focus {
+  color: var(--hover-color);
+  background-color: var(--background-color);
 }
 
 .email {
@@ -145,7 +150,6 @@ body {
 }
 
 .description-quote {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -195,7 +199,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -214,7 +217,6 @@ body {
 
 .address-map {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -223,7 +225,6 @@ body {
 
 .address-contacts {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -231,9 +232,13 @@ body {
   text-decoration: none;
 }
 
-.address-contacts:hover,
-:focus {
+.address-contacts:hover {
   color: var(--hover-color);
+}
+
+.address-contacts:focus {
+  color: var(--hover-color);
+  background-color: var(--footer-background);
 }
 
 .filters-list {
@@ -254,7 +259,7 @@ body {
 
 .filters-btn:hover,
 :focus {
-  background: #2196f3;
+  background: #188ce8;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -270,12 +275,10 @@ body {
   font-size: 18px;
   line-height: 1.44;
   letter-spacing: 0.06em;
-  quotes: none;
   color: var(--primary-text-color);
 }
 
 .body-quote {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
