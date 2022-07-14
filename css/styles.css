@@ -56,7 +56,6 @@ body {
   background-color: var(--background-color);
 }
 
-
 .contact {
   font-weight: 500;
   font-size: 14px;
@@ -71,8 +70,6 @@ body {
     background-color: var(--background-color);
 }
 
-
-
 .email {
   text-decoration: none;
   color: var(--secondary-text-color);
@@ -82,6 +79,8 @@ body {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
+
+/*--------MAIN-------*/
 
 .hero {
   background: var(--hero-background);
